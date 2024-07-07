@@ -2,7 +2,7 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+UUID=${UUID:-'d02a087c-6140-4379-8644-7ab0a7a1f375'}
 WEB_USERNAME=${WEB_USERNAME:-'admin'}
 WEB_PASSWORD=${WEB_PASSWORD:-'password'}
 
@@ -31,19 +31,19 @@ generate_config() {
                         "dest":3001
                     },
                     {
-                        "path":"/${WSPATH}-vless",
+                        "path":"/vless77",
                         "dest":3002
                     },
                     {
-                        "path":"/${WSPATH}-vmess",
+                        "path":"/vmess77",
                         "dest":3003
                     },
                     {
-                        "path":"/${WSPATH}-trojan",
+                        "path":"/trojan77",
                         "dest":3004
                     },
                     {
-                        "path":"/${WSPATH}-shadowsocks",
+                        "path":"/shadowsocks77",
                         "dest":3005
                     }
                 ]
@@ -86,7 +86,7 @@ generate_config() {
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/${WSPATH}-vless"
+                    "path":"/vless77"
                 }
             },
             "sniffing":{
@@ -113,7 +113,7 @@ generate_config() {
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/${WSPATH}-vmess"
+                    "path":"/vmess77"
                 }
             },
             "sniffing":{
@@ -140,7 +140,7 @@ generate_config() {
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/${WSPATH}-trojan"
+                    "path":"/trojan77"
                 }
             },
             "sniffing":{
@@ -168,7 +168,7 @@ generate_config() {
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/${WSPATH}-shadowsocks"
+                    "path":"/shadowsocks77"
                 }
             },
             "sniffing":{
